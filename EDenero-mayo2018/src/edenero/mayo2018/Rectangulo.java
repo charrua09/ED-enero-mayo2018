@@ -32,6 +32,9 @@ public class Rectangulo {
         this.altura = altura;
     }
     
+    public double calculaArea(){
+        return base * altura;
+    }
     
     
 }
