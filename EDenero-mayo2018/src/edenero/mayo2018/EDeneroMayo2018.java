@@ -16,6 +16,7 @@ public class EDeneroMayo2018 {
      */
     public static void main(String[] args) {       
         JOptionPane.showMessageDialog(null, "Mundo cruel");
+        System.out.println("Seguimos probando");
     }
     
 }
