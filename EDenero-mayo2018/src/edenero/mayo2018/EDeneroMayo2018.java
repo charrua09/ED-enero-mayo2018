@@ -17,8 +17,9 @@ public class EDeneroMayo2018 {
     public static void main(String[] args) {       
         JOptionPane.showMessageDialog(null, "Bienvenido al mundo de la POO");
         Rectangulo unRectangulo = new Rectangulo(4.5, 6.2);
-        System.out.println("Area: " + unRectangulo.calculaArea());
-        
+        System.out.println("\nArea del rectángulo: " + unRectangulo.calculaArea());
+        Circulo unCirculo = new Circulo(5.6);
+        System.out.println("\nArea del círculo: " + unCirculo.calculaArea());
     }
     
 }
