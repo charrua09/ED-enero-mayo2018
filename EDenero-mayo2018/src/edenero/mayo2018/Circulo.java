@@ -29,4 +29,8 @@ public class Circulo {
         return "Circulo{" + "radio=" + radio + '}';
     }
     
+    public double calculaArea(){
+        return Math.PI * radio * radio;
+    }
+    
 }
