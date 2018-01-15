@@ -15,9 +15,10 @@ public class EDeneroMayo2018 {
      * @param args the command line arguments
      */
     public static void main(String[] args) {       
-        JOptionPane.showMessageDialog(null, "Mundo cruel");
-        System.out.println("Seguimos probando");
-        System.out.println("Sigo probando"); //Es necesario probar
+        JOptionPane.showMessageDialog(null, "Bienvenido al mundo de la POO");
+        Rectangulo unRectangulo = new Rectangulo(4.5, 6.2);
+        System.out.println("Area: " + unRectangulo.calculaArea());
+        
     }
     
 }
