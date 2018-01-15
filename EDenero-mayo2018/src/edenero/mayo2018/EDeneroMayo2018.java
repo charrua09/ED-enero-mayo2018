@@ -4,7 +4,7 @@
  * and open the template in the editor.
  */
 package edenero.mayo2018;
-
+import javax.swing.JOptionPane;
 /**
  *
  * @author SGUARDATB
@@ -14,8 +14,8 @@ public class EDeneroMayo2018 {
     /**
      * @param args the command line arguments
      */
-    public static void main(String[] args) {
-        System.out.println("Hola");
+    public static void main(String[] args) {       
+        JOptionPane.showMessageDialog(null, "Mundo cruel");
     }
     
 }
